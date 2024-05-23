@@ -33,6 +33,7 @@ const mostrarReloj = () => {
     "Viernes",
     "Sabado",
   ];
+
   document.getElementById("fecha").innerHTML = `${dias[diaSemana]} ${dia} de ${
     meses[mes - 1]
   }`;
